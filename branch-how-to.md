@@ -1,8 +1,8 @@
 ### Как пользоваться ветками?
 ---
  1. Для создания ветки нужно написать в окне терминала 
- > git branch ...
+ > git branch <name>
  2. Для переключения на другую ветку
- > <git clone https://github.com/...>
+ > git checkout <name>
  3. Для отправки ветки на сервер
- > git push
+ > git push --set-upstream origin <name>
